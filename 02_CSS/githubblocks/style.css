@@ -1,0 +1,54 @@
+body{
+    background-color: blanchedalmond; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+header {
+    text-align: center;
+    color:darkslategrey;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px solid black;
+    background-color: white;
+}
+
+img{
+    height: 200px;
+    margin: 5%;
+}
+
+.mid img{
+    border: 5px solid black;
+}
+
+footer{
+   text-align: center;
+   color: darkslategray;
+   
+}
+
+footer a:hover{
+    color: red;
+}
+
+
+
