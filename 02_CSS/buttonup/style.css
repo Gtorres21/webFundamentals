@@ -1,0 +1,36 @@
+*{
+    margin: 5% 10% 10% 5%;
+    width: 70%;
+
+}
+
+
+.search {
+    color: indianred;
+    border: 2px solid indianred;
+    border-radius: 3em;
+    height: 2em;
+    font-size: larger;
+    font-weight: bold;
+    border-width: medium;
+}
+
+.plus {
+    font-size:xx-large;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    color: white;
+    background-color: black;
+
+}
+
+.create {
+    color: white;
+    background-color: darkred;
+    height: 55px;
+    font-size: large;
+    box-shadow: 5px 5px black, -3px -2px black;
+
+
+}
