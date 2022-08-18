@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    border: none;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 1000px;
+    width: 2000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+
+
+/* This is the Nav Bar */
+#nav_bar{
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(1,1,0);;   
+    color: white;
+    height: 75px;
+    margin-bottom: 2%;
+    padding-right: 10%;
+    align-items: center;
+    position: top;
+    width: 1500px;
+}
+
+.nav_links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    background-color: inherit;
+    height: inherit;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.nav_button{
+    height: 50%;
+    width:  10%;
+    background-color: rgb(22,162,185);
+    color: white;
+}
+
+.row{
+    display: flex;
+}
+
+
+/* column left */
+
+#col-one{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    align-items: center;
+}
+
+/* This is the About Me */
+
+#about{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+    border: 5px solid gray;
+    margin-bottom: 5%;
+    width: 800px;
+}
+
+.about_head{
+    background-color: rgb(22,162,185);
+    height: 35%;
+    margin-bottom: 60px;
+}
+.about_head h1{
+    padding-left: 30px;
+}
+.about_head img{
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: 30px;
+    border: 5px double gray;
+    background-color: white;
+
+}
+
+.location{
+display: flex;
+align-items: flex-end;
+padding: 10% 0% 0% 3%;
+}
+
+.location img{
+    height: 40px;
+}
+
+.about_body{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1% 0% 0% 3%;
+}
+
+.settings{
+    padding: 1% 0% 0% 3%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.settings img{
+    height: 40px;
+}
+
+/* Education Part */
+
+#education{
+    width: 800px;
+    background-color: white;
+    border: 5px solid gray;
+}
+.education_head{
+    background-color: rgb(50,51,50);
+    color: white;
+    padding: 1% 0% 2% 3%;
+}
+.education_body{
+    padding: 1% 0% 2% 3%;
+}
+li{
+    list-style: none;
+    padding: 2% 0% 2% 0%;
+}
+
+
+/* Column Right */
+
+#col_two{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+
+.connections_request{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+.request_head{
+    background-color: rgb(50,51,50);
+    color: white;
+}
+
+.request_head h2{
+    text-align: center;
+}
+
+.request_row{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid gray;
+}
+.request_body{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width: 500px;
+}
+.people{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 450px;
+    justify-content: space-between;
+
+}
+
+.request_accept{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 50px;
+}
+
+
+/* Your Connections */
+/* .your_connections{
+    border: 5px solid gray;
+} */
+.your_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50,51,50);
+    color: white;
+}
+
+.your_body{
+    border: 5px solid gray;
+}
+.your_bot{
+    padding: 5%;
+    border-left: 5px solid gray;
+    border-bottom: 5px solid gray;
+    border-right: 5px solid gray;
+}
+
+.people2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 450px;
+    justify-content: flex-start
+
+}
+
+.people img{
+    border-radius: 50%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.people2 img{
+    border-radius: 50%;
+    padding: 5%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

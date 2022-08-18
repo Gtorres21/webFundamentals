@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border:1px  dotted red; */
+}
+
+
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* This is the Nav Bar below */
+#nav_bar{
+    height: 100px;
+    background-color: rgb(1,1,0);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.nav_links{
+    display: flex;
+    list-style: none;
+    width: 80%;
+    justify-content: space-between;
+    font-size: 30px;
+    margin: 0% 20%;
+}
+
+button{
+    height: 40px;
+    width: 250px;
+    margin-right: 20%;
+    background-color: rgb(150,200,212);
+    color: white;
+}
+
+
+/* This is the main container */
+
+
+.row_one{
+    display: flex;
+    align-items:flex-start;
+    gap: 15%;
+
+}
+
+#main{
+    background: linear-gradient(0deg, white, white, aqua);
+    border: 5px solid gray;
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    width: 40%;
+}
+
+.img_todd{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+.location{
+    display: flex;
+    align-items: flex-end;
+}
+
+/* This is Connection Request */
+
+#connection_request{
+    border: 5px solid gray;
+    display: flex;
+    /* flex: 2; */
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.request_head{
+    color: white;
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    padding-top: 1%;
+}
+
+.request_body{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+
+#connection_request img{
+    height: 100px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+.people {
+    margin-left: 15%;
+}
+
+
