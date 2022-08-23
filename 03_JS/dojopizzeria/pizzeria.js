@@ -35,6 +35,15 @@ function pizzaOven(crust,style,toppings){
     pizza.crust = crust[randomCrustIndex];
     pizza.style = style[randomStyleIndex];
     pizza.toppings = toppings[randomToppingsIndex];
+    pizza.toppings = []
+        for(let i=0;i<4;i++){
+            console.log(toppings[randomToppingsIndex])
+            pizza.toppings.push()
+        }
+
+
+        // for loop + empty array that pushes into empty 
+
     return pizza
 
 }
